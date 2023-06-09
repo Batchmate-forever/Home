@@ -1,0 +1,441 @@
+body {
+  margin: 0;
+  padding-top: 50px;
+  width: 95%;
+}
+.titles {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.logos {
+  height: 200px;
+  width: 500px;
+}
+.mess {
+  font-size: 25px;
+  text-align: center;
+}
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  height: 88px;
+  background-color: rgb(167, 236, 253);
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.header-buttons {
+  text-decoration: none;
+  color: black;
+}
+.header-button {
+  font-size: 25px;
+  cursor: pointer;
+  transition-duration: 888ms;
+}
+.header-button:hover {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/*---------Home-----------------*/
+.home {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: center;
+  gap: 16px;
+  height: 650px;
+  
+}
+.searching {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 80%;
+}
+.div-button1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.div-button2 {
+  flex: 3;
+}
+.div-button3 {
+  flex: 2;
+}
+.div-button4 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.back-button {
+  height: 50px;
+  width: 60px;
+  cursor: pointer;
+}
+.search-y,
+.search-n {
+  font-size: 22px;
+  padding: 4px;
+  width: 100%;
+  border: 1px solid;
+}
+.search-button {
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  
+  
+}
+.label {
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+  align-items: center;
+  justify-items: center;
+  width: 82%;
+}
+.name-label {
+  font-size: 38px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid;
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 500px;
+  width: 84.4%;
+  margin-left: 15px;
+
+
+
+}
+.theResult {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid;
+  margin-left: 3px;
+  margin-right: 0;
+  align-items: center;
+
+}
+.resultyear,
+.resultlink,
+.resultName {
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: center;
+  margin-left: 0;
+}
+.resultName {
+  flex: 3;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.resultyear {
+  flex: 2;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.resultlink {
+  flex: 1;
+  cursor: pointer;
+}
+
+.school {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  overflow-y: scroll;
+  height: 600px;
+}
+.school-pic {
+  height: 200px;
+  width: 100%;
+}
+
+/*----------Template-------------------------------*/
+#about,
+#template {
+  text-align: center;
+  font-size: 28px;
+}
+.template {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.temp-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.temp-name {
+  font-size: 28px;
+  font-weight: bold;
+}
+.img-con {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  max-height: 800px;
+  }
+.temp-img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.temp-link {
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+.about-sec-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.about-say {
+  font-size: 25px;
+  text-align: center;
+}
+.about-contact {
+  font-size: 25px;
+  font-weight: bold;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.con-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.form-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.title-form {
+  font-size: 25px;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.name-input {
+  font-size: 20px;
+  width: 400px;
+  padding: 2px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.the-message {
+  font-size: 20px;
+  width: 400px;
+  height: 150px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.send-button {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+ 
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (width <= 500px) {
+  body {
+    padding-top: 0px;
+    width: 99%;
+  }
+  .logos {
+    height: 120px;
+    width: 200px;
+  }
+  .mess {
+    font-size: 10px;
+    text-align: center;
+  }
+  .header {
+    height: 30px;
+  }
+  .header-button {
+    font-size: 15px;
+    font-style: italic;
+  }
+  .header-button:hover {
+    font-size: 20px;
+  }
+  /*-------------Home-----------------------*/
+  .home {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 550px;
+  }
+  .back-button {
+    height: 35px;
+    width: 45px;
+  }
+  .search-y,
+  .search-n {
+    font-size: 17px;
+    padding: 4px;
+  }
+  .search-button {
+    font-size: 16px;
+    padding: 4px;
+    font-weight: bold;
+  }
+  .label {
+    width: 90%;
+  }
+  .name-label {
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid;
+  }
+  .result {
+    height: 328px;
+    width: 90.5%;
+    margin-left: 0;
+  }
+  .theResult {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .resultyear,
+  .resultlink,
+  .resultName {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .resultlink {
+    padding-left : 1px;
+    padding-right: 1px;
+
+  }
+  .school {
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+    width: 100%;
+    overflow-x: scroll;
+    gap: 2px;
+    margin-left: 2px;
+
+  }
+  .school-pic {
+    width: 45%;
+    height: 120px;
+  }
+
+  /* ------------------Template----------------*/
+  .temp-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .temp-link {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  /*-----------------------------------*/
+  .about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .about-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .about-say {
+    font-size: 17px;
+  }
+  .about-contact {
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  .con-icon {
+    height: 20px;
+    width: 20px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .title-form {
+    font-size: 10px;
+  }
+  .message {
+    gap: 2px;
+  }
+  .name-input {
+    font-size: 10px;
+    width: 150px;
+    padding: 1px;
+    border: 1px solid;
+    border-radius: 2px;
+  }
+  .the-message {
+    font-size: 10px;
+    width: 148px;
+    border: 1px solid;
+    border-radius: 3px;
+    height: 40px;
+  }
+  .send-button {
+    font-size: 10px;
+    font-weight: bold;
+    border: 1px solid;
+    border-radius: 2px;
+    width: 40px;
+  }
+  
+}
+

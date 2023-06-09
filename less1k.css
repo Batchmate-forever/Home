@@ -1,0 +1,94 @@
+@media screen and (width >= 501px) and (width <= 1000px) {
+  body {
+    padding-top: 20px;
+    width: 99%;
+  }
+  .logos {
+    height: 150px;
+    width: 200px;
+  }
+  .mess {
+    font-size: 20px;
+    text-align: center;
+  }
+  .header {
+    height: 48px;
+  }
+  .header-button {
+    font-size: 25px;
+    font-style: italic;
+  }
+  .header-button:hover {
+    font-size: 30px;
+  }
+  /*-------------Home-----------------------*/
+  .home {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 650px;
+  }
+  .back-button {
+    height: 38px;
+    width: 45px;
+  }
+  .search-y,
+  .search-n {
+    font-size: 20px;
+    padding: 4px;
+    border: 1px solid;
+  }
+  .search-button {
+    font-size: 18px;
+    padding: 4px;
+    font-weight: bold;
+  }
+  .label {
+    width: 92%;
+  }
+  .name-label {
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid;
+  }
+  .result {
+    height: 328px;
+    width: 93.2%;
+    padding-right: 8px;
+    
+  }
+  .theResult {
+    margin-left: 0;
+    margin-right: 7px;
+  }
+  .resultyear,
+  .resultlink,
+  .resultName {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .school {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 100%;
+    overflow-x: scroll;
+    gap: 2px;
+    margin-left: 2px;
+
+  }
+  .school-pic {
+    width: 45%;
+    height: 170px;
+  }
+  .temp-name {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .temp-link {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}

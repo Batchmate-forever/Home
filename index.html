@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BatchMate</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="less1k.css">
+</head>
+<body>
+  <div class="header">
+    <div class="header-button">
+      <a class="header-buttons" href="#">Home</a>
+    </div>
+    <div class="header-button">
+      <a class="header-buttons" href="#template">Templates</a>
+    </div>
+    <div  class="header-button">
+      <a class="header-buttons" href="#about">About us</a>
+    </div>
+  </div>
+  <div class="titles"> 
+    <div class="mess">
+      Preserving the Past, Embracing the Future
+    </div>
+    <img class="logos" src="logos.png" alt="">
+    <div class="mess">
+      Together We Stand, Forever We Remember
+    </div>
+  </div>
+  <div class="home">
+    <div class="searching">
+      <div class="search-section">
+        <div class="div-button1" onclick="
+            document.querySelector('.search-n').value = ``;
+            document.querySelector('.search-y').value = ``;
+          result()"><img class="back-button" src="back (2).png" alt="">
+        </div>
+        <div class="div-button2">
+          <input class="search-n" placeholder="Name">
+        </div>
+        <div class="div-button3">
+          <input class="search-y" placeholder="Year">
+        </div>
+        <div class="div-button4">
+          <button onclick=" 
+            let sName = document.querySelector('.search-n').value;
+            let searchYear = document.querySelector('.search-y').value;
+            let searchName = sName.toUpperCase();
+            search(searchName,searchYear);" class="search-button">Search</button>
+        </div>
+      </div>
+      <div class="label">
+        <div class="name-label">
+          Name of School
+        </div>
+        <div class="name-label">
+          Year
+        </div>
+        <div class="name-label">
+          Link
+        </div>
+      </div>
+      <div class="result"></div>
+    </div>
+    <div class="school">
+        <img class="school-pic" src="anhs.jpg" alt="">
+        <img class="school-pic" src="acc.jpg" alt="">
+        <img class="school-pic" src="nda.jpg" alt="">
+        <img class="school-pic" src="aa.png" alt="">
+    </div>
+  </div>
+  
+  <h1 id="template">Template</h1>
+  <div class="template">
+    <div class="temp-div">
+      <div class="temp-name">
+        Round Type 
+      </div>
+      <div class="img-con">
+        <img class="temp-img" src="template-1.png" alt="">
+      </div>
+      <div>
+        <a class="temp-link" href="https://batchmate-forever.github.io/roundtype/">View here </a>
+      </div>
+    </div>
+    <div class="temp-div">
+      <div class="temp-name">
+        Box Type 
+      </div>
+      <div class="img-con">
+        <img class="temp-img" src="template-2.png" alt="">
+      </div>
+      <div>
+        <a class="temp-link" href="https://batchmate-forever.github.io/boxtype/">View here </a>
+      </div>
+    </div>
+  </div>
+<!----------------About------------------------->
+  <h1 id="about">About us</h1>
+
+  <div class="about-sec-1">
+    <div class="about-say">
+      In BatchMate we preserve your meaningful memories and joyful childhood.  
+    </div>
+    <div class="about-contact">
+      Contact
+    </div>
+    <div class="icons">
+      <a href="https://www.facebook.com/jhon.dumanhog.7"><img class="con-icon" src="fb-image.png" alt=""></a>
+      <a href="https://www.linkedin.com/in/jhon-dumanhog-aa2b48264/"><img class="con-icon" src="linkedin.webp" alt=""></a>
+      <a href="https://www.upwork.com/freelancers/~016934a855eac11ab9"><img class="con-icon" src="upwork.png" alt=""></a> 
+    </div>
+    <div class="form-head">
+      <div class="title-form">
+        Contact Form:
+      </div>
+      <form class="message" action="https://formsubmit.co/a117181b08e32b02f0e1d5a0dca86a57" method="POST" >
+        <input class="name-input" type="text" name="name" placeholder="Name" required>
+        <input class="name-input" type="email" name="email" placeholder="Email" required>
+        <textarea class="the-message" type="text" name="Message" placeholder="Message..." required></textarea>
+        <button class="send-button" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
